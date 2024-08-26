@@ -1,4 +1,5 @@
 # demo-app
+The demo app displays UI based on the data provided by an external source. External source(JSON file used for data) decides what components to display and what data to put in those components.
 
 ## Project setup
 ```
