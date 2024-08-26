@@ -1,0 +1,43 @@
+{
+    "components": [
+      {
+        "type": "HeadingDemo",
+        "props": {
+          "text": "Welcome to Expedite Commerce",
+          "para": "Expedite Commerce is a leading provider of comprehensive lead-to-cash solutions, delivering a cloud-based Revenue Operations and Management platform designed to streamline and enhance the entire buyer journey. As an AI-first company, our innovative solutions are crafted to help our customers boost sales, improve customer experience, and automate operations, ensuring they achieve maximum potential from start to finish."
+        }
+      },
+      {
+        "type": "InputField",
+        "props": {
+          "label": "Name",
+          "model": "name",
+          "type": "text"
+        }
+      },
+      {
+        "type": "InputField",
+        "props": {
+          "label": "Email",
+          "model": "email",
+          "type": "email"
+        }
+      },
+      {
+        "type": "InputField",
+        "props": {
+          "label": "Password",
+          "model": "password",
+          "type": "password"
+        }
+      },
+      {
+        "type": "ButtonDemo",
+        "props": {
+          "label": "SignIn",
+          "action": "handleSubmit"
+        }
+      }
+     ]
+  }
+  
