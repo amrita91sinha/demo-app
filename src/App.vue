@@ -6,7 +6,6 @@
 
 <script>
 import MetaDataFormProcessor from './components/MetaDataFormProcessor.vue';
-import formData from './data/formMetaData.json';
 
 export default {
   name: 'App',
@@ -20,7 +19,12 @@ export default {
     };
   },
   created() {
-    this.formInputData = formData;
+    // we can also use axios
+    fetch('/formMetaData.json').then(res => res.json()).then(data => {
+      this.formInputData = data
+    }).catch(error => {
+      console.log('Error fetching JSON data:', error);
+    });
   },
 };
 </script>
